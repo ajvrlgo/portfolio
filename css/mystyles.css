@@ -1,0 +1,152 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Roboto Slab', serif, sans-serif;
+	background-color: #777;
+	color: #FFF;
+}
+
+a {
+	display: block; 
+	position: relative;
+	padding: 0.2em 0;
+	color: #FFF;
+}
+
+.mycard{
+	color: #333;
+}
+.maintitle{
+	padding-bottom: 20px;
+	padding-top: 50px;	
+}
+
+.myrow{
+	padding: 15px !important;
+}
+
+.mybtn{
+	margin: 15px !important;
+}
+
+.myjumbo{
+	background-color: #555 !important;
+}
+
+.aarimage{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ignore a{
+	display: inline !important; 
+	position: relative !important;
+	color: #3C3;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.ignore a:hover{
+	color: #208839;
+}
+
+.build {
+	margin: 50px;
+	display: inline-block;
+	padding: 10px;
+}
+
+.mynav {
+	text-decoration: none;
+	background-color: #333;
+}
+
+.mynav a:visited {
+	color: #FFF;
+}
+
+.mynav a:hover {
+	color: #FFF;
+}
+
+.mynav a::after {
+  content: '';
+  position: absolute;
+  bottom: 10;
+  left: 0;
+  width: 100%;
+  height: 0.05em;
+  background-color: #3C3;
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+
+.mynav a:hover::after,
+.mynav a:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+
+.section-header{
+	text-align: center;
+	padding: 15px;
+	margin: auto;	
+}
+
+.section-content{
+	text-align: center;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto; /* 15% from the top and centered */
+  padding: 50px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  color: black !important;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  top: 8px;
+  right: 16px;
+  position: absolute;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modimg {
+	max-width: 100%;
+	height: auto;
+}
+
+.modemph {
+	text-align: center;
+}
+
